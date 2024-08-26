@@ -11,13 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="55435aa2-bea0-42fa-98e3-34b24e1fc12f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/CustomerDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/CustomerDataImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +92,11 @@
   <component name="RunManager">
     <configuration name="Tomcat 11.0.0-M20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/item" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/customer" />
       <deployment>
         <artifact name="pos-Backend:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/item" />
+            <option name="CONTEXT_PATH" value="/customer" />
           </settings>
         </artifact>
       </deployment>
@@ -200,6 +197,8 @@
       <workItem from="1724470592255" duration="1255000" />
       <workItem from="1724566833574" duration="7804000" />
       <workItem from="1724586208700" duration="8567000" />
+      <workItem from="1724635811054" duration="3116000" />
+      <workItem from="1724665560966" duration="1786000" />
     </task>
     <servers />
   </component>

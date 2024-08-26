@@ -80,6 +80,7 @@ public class CustomerDataImpl implements CustomerData{
             pstm.setString(2, customerDTO.getAddress());
             pstm.setString(3, customerDTO.getTel());
             pstm.setString(4, customerDTO.getRegDate());
+            ;
             pstm.setString(5, nic);
             return pstm.executeUpdate()>0;
         }catch (SQLException e){
