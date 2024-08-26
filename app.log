@@ -1,1 +1,61 @@
 11:48:25.497 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+12:24:26.066 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+12:25:42.058 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+12:26:33.733 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+12:32:42.655 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+12:34:34.046 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+12:36:32.223 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+18:30:00.619 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+18:35:35.042 [RMI TCP Connection(4)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+18:53:38.533 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:03:40.850 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:05:17.495 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:07:01.025 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:10:36.937 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:11:14.740 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- call dopost method
+19:16:11.391 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:16:35.495 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- call dopost method
+19:24:46.142 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:25:22.016 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- call dopost method
+19:28:25.246 [http-nio-8080-exec-3] DEBUG c.e.p.controller.CustomerController -- call dopost method
+19:30:48.960 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Customer Controller with call inti method
+19:31:15.005 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- call dopost method
+20:45:13.277 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+20:46:39.146 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+21:02:52.633 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+21:03:36.799 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+21:04:26.756 [http-nio-8080-exec-6] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+21:04:33.787 [http-nio-8080-exec-8] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+21:06:37.217 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+21:07:45.031 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+21:07:55.053 [http-nio-8080-exec-3] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+12:01:18.540 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+12:12:23.713 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+12:24:56.937 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+12:43:24.426 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+12:45:43.965 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+12:54:46.501 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+13:01:47.281 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+13:04:26.822 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+17:21:00.716 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+17:27:00.032 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+17:32:38.480 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+17:36:15.355 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+17:38:35.141 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+18:00:49.367 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+18:01:25.280 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+19:02:57.773 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Item controller 
+19:02:57.789 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+19:17:08.239 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+19:20:07.987 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Item controller 
+19:20:08.002 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+19:21:03.158 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+19:23:34.444 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing Item controller 
+19:28:00.877 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+19:28:00.891 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+19:33:33.297 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+19:33:33.312 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+19:51:21.245 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+19:51:21.262 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+20:02:51.571 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+20:02:51.585 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 

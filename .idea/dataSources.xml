@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="StoreManagement-api@localhost" uuid="1db5c4e2-b1cb-49e8-88ad-fdcff0ca7a32">
+    <data-source source="LOCAL" name="sdf@localhost" uuid="60277c17-f7e4-4409-8dd8-b65ad68b2004">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/StoreManagement-api</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/sdf</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

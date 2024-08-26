@@ -1,8 +1,9 @@
 package com.example.posbackend.controller;
 
-
 import com.example.posbackend.dao.CustomerDataImpl;
+import com.example.posbackend.dao.ItemDataImpl;
 import com.example.posbackend.dto.CustomerDTO;
+import com.example.posbackend.dto.ItemDTO;
 import com.example.posbackend.util.UtilProcess;
 import jakarta.json.bind.Jsonb;
 import jakarta.json.bind.JsonbBuilder;
@@ -22,14 +23,10 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-@WebServlet(urlPatterns = "/customer",loadOnStartup = 2)
-public class CustomerController extends HttpServlet {
-
-    static Logger logger= LoggerFactory.getLogger(CustomerController.class);
+@WebServlet(urlPatterns = "/item",loadOnStartup = 2)
+public class ItemController extends HttpServlet {
+    static Logger logger= LoggerFactory.getLogger(ItemController.class);
     private Connection connection;
-
-
-
     @Override
     public void init() throws ServletException {
 
@@ -42,29 +39,13 @@ public class CustomerController extends HttpServlet {
             logger.error("info failed message"+e.getMessage());
             e.printStackTrace();
         }
-        logger.info("Initializing student controller ");
+        logger.info("Initializing Item controller ");
 
     }
 
-
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //get student
-        String nic = req.getParameter("nic");
-        CustomerDataImpl customerData = new CustomerDataImpl();
-        try(var writer=resp.getWriter()){
-            CustomerDTO customerDTO = customerData.getCustomer(nic, connection);
-            System.out.println(customerDTO);
-            resp.setContentType("application/json");
-            Jsonb jsonb = JsonbBuilder.create();
-            jsonb.toJson(customerDTO,writer);
-        }catch (RuntimeException e){
-            throw new RuntimeException(e);
-        }
-    }
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        logger.debug("called doPost method ");
+        logger.debug("called doPost   item method ");
         //save student-------------
         if(!req.getContentType().toLowerCase().startsWith("application/json")||req.getContentType()==null){
             //send error---------------
@@ -72,28 +53,41 @@ public class CustomerController extends HttpServlet {
         }
         try {
             Jsonb jsonb = JsonbBuilder.create();
-            CustomerDTO customerDTO = jsonb.fromJson(req.getReader(), CustomerDTO.class);//jsonb eken kranne json type data tika object ekath ekka bind karana eka..
-//            customerDTO.setId(UtilProcess.generateID());
-            System.out.println("dopost"+customerDTO);
-            CustomerDataImpl customerData = new CustomerDataImpl();
-            customerData.saveCustomer(customerDTO,connection);
+            ItemDTO itemDTO = jsonb.fromJson(req.getReader(), ItemDTO.class);//jsonb eken kranne json type data tika object ekath ekka bind karana eka..
+//            itemDTO.setId(UtilProcess.generateID());
+            System.out.println("dopost"+itemDTO);
+            ItemDataImpl itemData = new ItemDataImpl();
+           itemData.saveItem(itemDTO,connection);
         } catch (JsonbException e) {
             throw new RuntimeException(e);
         }
     }
 
     @Override
-    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        //update student
-        CustomerDataImpl customerData = new CustomerDataImpl();
-        try (var writer = resp.getWriter()){
-            var nic = req.getParameter("nic");
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String code = req.getParameter("ItemCode");
+        ItemDataImpl itemData = new ItemDataImpl();
+        try(var writer=resp.getWriter()){
+           ItemDTO itemDTO= itemData.getItem(code, connection);
+            System.out.println(itemDTO);
+            resp.setContentType("application/json");
             Jsonb jsonb = JsonbBuilder.create();
-            CustomerDTO Update_customer = jsonb.fromJson(req.getReader(), CustomerDTO.class);
-            if(customerData.updateCustomer(Update_customer,connection,nic)){
+            jsonb.toJson(itemDTO,writer);
+        }catch (RuntimeException e){
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        ItemDataImpl itemData = new ItemDataImpl();
+        try (var writer = resp.getWriter()){
+            var code = req.getParameter("ItemCode");
+            Jsonb jsonb = JsonbBuilder.create();
+           ItemDTO update_item = jsonb.fromJson(req.getReader(), ItemDTO.class);
+            if(itemData.updateItem(update_item,connection,code)){
                 resp.setStatus(HttpServletResponse.SC_NO_CONTENT);
-                System.out.println("doput"+customerData);
+                System.out.println("doput"+itemData);
             }else{
                 writer.write("Update Failed");
                 resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
@@ -108,10 +102,10 @@ public class CustomerController extends HttpServlet {
 
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        var nic = req.getParameter("nic");
+        var code = req.getParameter("ItemCode");
         try (var writer = resp.getWriter()){
-            var customerData = new CustomerDataImpl();
-            if(customerData.deleteCustomer(nic, connection)){
+            ItemDataImpl itemData = new ItemDataImpl();
+            if(itemData.deleteItem(code, connection)){
                 resp.setStatus(HttpServletResponse.SC_NO_CONTENT);
             }else {
                 resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
@@ -122,4 +116,5 @@ public class CustomerController extends HttpServlet {
             throw new RuntimeException(e);
         }
     }
+
 }
