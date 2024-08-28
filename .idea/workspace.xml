@@ -9,16 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55435aa2-bea0-42fa-98e3-34b24e1fc12f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004/storage_v2/_src_/schema/sdf.NbwBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004/storage_v2/_src_/schema/sdf.NbwBAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/ItemDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/ItemDataImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="55435aa2-bea0-42fa-98e3-34b24e1fc12f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +194,7 @@
       <workItem from="1724665560966" duration="1975000" />
       <workItem from="1724680531984" duration="514000" />
       <workItem from="1724819232465" duration="2950000" />
-      <workItem from="1724823965805" duration="3184000" />
+      <workItem from="1724823965805" duration="3490000" />
     </task>
     <servers />
   </component>
