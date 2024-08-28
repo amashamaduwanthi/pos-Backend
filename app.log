@@ -75,3 +75,21 @@
 17:40:33.942 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
 17:40:33.973 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
 17:41:17.876 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+19:25:49.474 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+19:25:49.500 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+19:26:45.898 [http-nio-8080-exec-1] DEBUG c.e.p.controller.CustomerController -- called doPost method 
+10:00:34.322 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+10:00:34.344 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+10:04:06.621 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+10:04:40.836 [http-nio-8080-exec-1] DEBUG c.e.p.controller.ItemController -- called doPost   item method 
+10:19:32.775 [http-nio-8080-exec-3] DEBUG c.e.p.controller.ItemController -- called doPost   item method 
+10:29:44.877 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+10:39:05.422 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.CustomerController -- Initializing student controller 
+10:46:29.330 [RMI TCP Connection(4)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+10:47:49.332 [http-nio-8080-exec-1] DEBUG c.e.p.controller.ItemController -- called doPost   item method 
+10:55:30.144 [http-nio-8080-exec-3] DEBUG c.e.p.controller.ItemController -- called doPost   item method 
+10:56:29.449 [http-nio-8080-exec-5] DEBUG c.e.p.controller.ItemController -- called doPost   item method 
+10:59:42.198 [http-nio-8080-exec-7] DEBUG c.e.p.controller.ItemController -- called doPost   item method 
+11:01:07.729 [http-nio-8080-exec-9] DEBUG c.e.p.controller.ItemController -- called doPost   item method 
+11:17:35.871 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.p.controller.ItemController -- Initializing Item controller 
+11:18:25.589 [http-nio-8080-exec-1] DEBUG c.e.p.controller.ItemController -- called doPost   item method 

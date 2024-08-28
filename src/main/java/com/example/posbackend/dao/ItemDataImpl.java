@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import static com.example.posbackend.dao.CustomerDataImpl.GET_STUDENT;
 
 public class ItemDataImpl implements ItemData{
-    static String SAVE_ITEM="INSERT INTO item (ItemCode,ItemName,Description,Qty,UnitPrice)VALUES(?,?,?,?,?) ";
+    static String SAVE_ITEM="INSERT INTO item(ItemCode,ItemName,Description,Qty,UnitPrice)VALUES(?,?,?,?,?) ";
     static String GET_ITEM="SELECT * FROM item WHERE ItemCode=?";
     static String UPDATE_ITEM="UPDATE item SET  ItemName=?,Description=?,Qty=?,UnitPrice=? WHERE ItemCode=?";
     static String DELETE_ITEM="DELETE FROM item WHERE ItemCode=?";

@@ -10,11 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55435aa2-bea0-42fa-98e3-34b24e1fc12f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004/storage_v2/_src_/schema/sdf.NbwBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60277c17-f7e4-4409-8dd8-b65ad68b2004/storage_v2/_src_/schema/sdf.NbwBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/CustomerDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/CustomerDataImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/ItemDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao/ItemDataImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,50 +56,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/amasha/Documents/AAD/pos-Backend/src/main/webapp/WEB-INF&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/amasha/Documents/AAD/pos-Backend/src/main/java/com/example/posbackend/dto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/posbackend/dto" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/META-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/posbackend/dao" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/posbackend/bo" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/posbackend/controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.posbackend.controller" />
       <recent name="com.example.posbackend.util" />
       <recent name="com.example.posbackend.filter" />
       <recent name="com.example.posbackend.dto" />
-      <recent name="com.example.posbackend.controller" />
       <recent name="com.example.posbackend.entity" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.0-M20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/customer" />
       <deployment>
         <artifact name="pos-Backend:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/customer" />
+            <option name="CONTEXT_PATH" value="/item" />
           </settings>
         </artifact>
       </deployment>
@@ -198,11 +200,25 @@
       <workItem from="1724566833574" duration="7804000" />
       <workItem from="1724586208700" duration="8567000" />
       <workItem from="1724635811054" duration="3116000" />
-      <workItem from="1724665560966" duration="1786000" />
+      <workItem from="1724665560966" duration="1975000" />
+      <workItem from="1724680531984" duration="514000" />
+      <workItem from="1724819232465" duration="2950000" />
+      <workItem from="1724823965805" duration="3184000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/posbackend/controller/CustomerController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
