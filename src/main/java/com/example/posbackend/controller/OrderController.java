@@ -7,6 +7,7 @@ import jakarta.json.bind.Jsonb;
 import jakarta.json.bind.JsonbBuilder;
 import jakarta.json.bind.JsonbException;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -20,7 +21,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-//@WebServlet(urlPatterns = "/order", loadOnStartup = 3)
+@WebServlet(urlPatterns = "/order", loadOnStartup = 3)
 public class OrderController extends HttpServlet {
 
     static Logger logger = LoggerFactory.getLogger(OrderController.class);
